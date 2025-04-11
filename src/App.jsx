@@ -11,10 +11,10 @@ function App() {
           </a>
           
           <ul className="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
-            <li><a href="#home" className="nav-link px-2 ">Home</a></li>
+            <li><a href="#Home" className="nav-link px-2 ">Home</a></li>
             <li><a href="#Product" className="nav-link px-2 link-blue">Product</a></li>
             <li><a href="#Team" className="nav-link px-2 link-blue">Team</a></li>
-            <li><a href="#" className="nav-link px-2 link-blue">Contact</a></li>
+            <li><a href="#Contact" className="nav-link px-2 link-blue">Contact</a></li>
             
           </ul>
 
@@ -24,8 +24,8 @@ function App() {
           </div>
         </header>
 
-        {/* heroes */ }
-        <div className="container my-5">
+        {/* heroes */ }  {/* Home Content */}
+        <div id="Home" className="container my-5">
   <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
     <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
       <h1 className="display-4 fw-bold lh-1 text-body-emphasis">
@@ -54,7 +54,7 @@ function App() {
 </div>
 
 {/*Tentang Buku */} {/* Home Content */}
-<div className="container py-5">
+<div id="Home" className="container py-5">
   <div className="row align-items-center mb-5">
     <div className="col-md-6">
       <img src="https://picsum.photos/600/400" className="img-fluid rounded" alt="Tentang Bookstore" />
@@ -221,7 +221,9 @@ function App() {
     </div>
   </div>
 
-<div className="container-lg my-5">
+{/* Team */}
+
+<div id="Team" className="container-lg my-5">
   <div className="p-4 pb-0 pe-lg-0 pt-lg-5 rounded-3 border shadow-lg bg-light">
     <div className="row text-center">
     <h1 className="display-5 fw-bold lh-1 text-body-emphasis mb-5">
@@ -275,7 +277,7 @@ function App() {
 
 
 {/* Contact Me */}
-<div className="container my-5">
+<div id="Contact" className="container my-5">
   <div className="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
     <div className="col-lg-7 p-3 p-lg-5 pt-lg-3">
       <h1 className="display-5 fw-bold lh-1 text-body-emphasis">
